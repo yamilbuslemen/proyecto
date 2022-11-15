@@ -1,175 +1,182 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Holtwood+One+SC&family=Oswald:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Holtwood+One+SC&family=Oswald:wght@300&display=swap");
 
-
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-    border-color: red;
-} 
-header{
-    display:flex;
-    justify-content: space-around;
-    text-align: left;
-    background-color: blueviolet;
-    height: 70px;
-    align-items: center;
-    font-family: 'Oswald', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-color: red;
 }
-.links{
-
-    display:flex;
-    justify-content:space-around;
-    width: 40vw;
+header {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  background-color: blueviolet;
+  height: 70px;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
 }
-main.home{
-    background-image: url(../IMG/1513719_10204622197691631_1221807113591345236_n.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%; 
-    justify-content: space-around;
-    font-size: 20px;
-    font-family: 'Bungee';
-    font-weight: bold;
-    width: 100%;
-    
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
 }
-    main h2 p{
-        border-radius: 10px;
-        border-color:black;
-        border-style: solid;
-      
+.home {
+  background-image: url(../IMG/1513719_10204622197691631_1221807113591345236_n.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.home div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-around;
+  font-size: 25px;
+  font-family: "Bungee";
+  font-weight: bold;
+  width: 100%;
+}
+.home h2 {
+  border-radius: 20px;
+  font-size: 50px;
+}
 
-    }
-
-    footer{
-        display: flex;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-        font-size: medium ;
-        justify-content: space-around;
-        
-        
-    }
+footer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-size: medium;
+  justify-content: space-around;
+}
 /*-------------ACA ARRANCA GALERIA----------*/
 
-.galeria{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: brown;
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: brown;
 }
 
 /*-----------ACA ARRANCA SOBRE MI----------*/
-.sobremi{
-    display:flex;
-    height: 500px;
+.sobremi {
+  display: flex;
+  height: 500px;
+}
+
+.fotosobremi img {
+  height: 81vh;
+ 
+}
+.textosobremi {
+  text-align: center  ;
+  background-color: aquamarine;
+  width: 60%;
+  font-family: "Holtwood One SC", serif;
+}
+
+.textosobremi h2 {
+  margin-top: 50px;
 
 }
 
-.fotosobremi img{
-    height:100%;
-    width: 100%;
-}
-.textosobremi{
-    background-color: aquamarine;
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    width: 60%;
-    font-family: 'Holtwood One SC', serif;
-}
-
-.textosobremi h2{
-    margin-top: 50px;
-    
+ 
   
-}
-.textosobremi p{
-    text-align: center;
-    margin:0px 60px;
-
-}
+  
 
 
 /*------------ACA ARRANCA SERVICIOS--------*/
-.servicios{
-    display: flex;
-
-
+.servicios {
+  display: flex;
 }
-.fotoservicios img{
-    height:100%;
-    width:100%;
+.fotoservicios img {
+  height: 100%;
+  width: 100%;
 }
-.textoservicios{
-    background-color: aquamarine;
-    display:flex;
-    align-items: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    font-family: 'Holtwood One SC', serif;
-    width: 100%;
-    height: 100%;
+.textoservicios {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Holtwood One SC", serif;
+  width: 100%;
+  height: 100%;
 }
-.textoservicios h2{
-    margin-top: 50px;
-    text-align: top;
-
+.textoservicios h2 {
+  margin-top: 50px;
+  text-align: top;
 }
-.textoservicios p{
-    text-align: center;
-    margin:0px 60px;
+.textoservicios p {
+  text-align: center;
+  margin: 0px 60px;
 }
-    
-
 
 /*--------ACA ARRANCA CONTACTO------*/
-.contacto{
-   display:flex;
-    justify-content: space-around;
-    text-align: center;
-    background-color: brown;
-    height:100%;
+.contacto {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: brown;
+  height: 100%;
+  font-size: 30px;
+  text-decoration: none;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+  width: 100px;
+}
+.links2 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+@media screen and (max-width: 1140px) {
+  .header {
+    width: 20%;
+    height: 20%;
+    font-size: 15px;
+  }
+
+  .home {
+    height: 59vh;
+  }
+  .home div {
+    height: 96%;
+  }
+  .home h2 {
+    font-size: 15px;
+  }
+  .home h3 {
+    font-size: 10px;
+  }
+
+  .galeria {
+    margin-right: 10%;
+    width: 100%;
+  }
+  .servicios {
+    flex-wrap: wrap;
+  }
+  .textoservicios {
+    font-size: 15px;
+  }
+  .textoservicios h2 {
     font-size: 24px;
-    text-decoration: none;
-    flex-direction: column;
-    font-family: 'Oswald', sans-serif;
-}
-.links2 ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 200px; 
-
-}
-@media screen and (min-width: 500px) 
-{
-
-    .header{
-        width:20%;
-
-    }
-
-    .contacto {
-        float: left;
-        margin-right: 25%;
-        width: 20%;
-    }
-    .servicios {
-        
-        float: left;
-        margin-right: 10%;
-        width:20%;
-       
-    
-    }
+  }
+  .contacto {
+    float: left;
+    margin-right: 25%;
+    width: 100%;
+  }
+  .sobremi {
+    flex-wrap: wrap;
+   
+  }
+  .textosobremi {
+    font-size: 10px;
+    width: 100vw;
+  }
 }
