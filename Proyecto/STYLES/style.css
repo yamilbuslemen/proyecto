@@ -38,9 +38,41 @@ header {
 }
 .home h2 {
   border-radius: 20px;
-  font-size: 50px;
+  font-size: 40px;
 }
-
+.boxeo:hover {
+  font-size: 60px;
+  color:rgb(220, 140, 20);
+   
+}
+.musculacion:hover {
+  font-size: 60px;
+  color:rgb(220, 140, 20);
+}
+.funcional:hover {
+  font-size: 60px;
+  color:rgb(220, 140, 20);
+}
+.crossfit:hover {
+  font-size: 60px;
+  color:rgb(220, 140, 20);
+}
+.clasespers:hover {
+  font-size: 50px;
+  color:deeppink;
+}
+.gruposred:hover {
+  font-size: 50px;
+  color:deeppink;
+}
+.planif:hover {
+  font-size: 50px;
+  color:deeppink;
+}
+.seguimientos:hover {
+  font-size: 50px;
+  color:deeppink;
+}
 footer {
   display: flex;
   align-items: center;
@@ -66,10 +98,9 @@ footer {
 
 .fotosobremi img {
   height: 81vh;
- 
 }
 .textosobremi {
-  text-align: center  ;
+  text-align: center;
   background-color: aquamarine;
   width: 60%;
   font-family: "Holtwood One SC", serif;
@@ -77,13 +108,7 @@ footer {
 
 .textosobremi h2 {
   margin-top: 50px;
-
 }
-
- 
-  
-  
-
 
 /*------------ACA ARRANCA SERVICIOS--------*/
 .servicios {
@@ -124,7 +149,20 @@ footer {
   text-decoration: none;
   flex-direction: column;
   font-family: "Oswald", sans-serif;
-  width: 100px;
+  width: 100%;
+  transition: all 1s;
+}
+.link1:hover {
+  font-size: 60px;
+}
+.link2:hover {
+  font-size: 60px;
+}
+.link3:hover {
+  font-size: 60px;
+}
+.link4:hover {
+  font-size: 60px;
 }
 .links2 ul {
   display: flex;
@@ -133,6 +171,29 @@ footer {
   align-items: center;
   height: 300px;
 }
+.nombre {
+  width: 200px;
+  transition: all 1s;
+}
+.nombre:focus {
+  width: 300px;
+}
+.apellido {
+  width: 200px;
+  transition: all 1s;
+}
+.apellido:focus {
+  width: 300px;
+}
+.ingreseconsulta {
+  width: 200px;
+  transition: all 1s;
+}
+.ingreseconsulta:focus {
+  height: 50px;
+  width: 380px;
+}
+
 @media screen and (max-width: 1140px) {
   .header {
     width: 20%;
@@ -152,6 +213,31 @@ footer {
   .home h3 {
     font-size: 10px;
   }
+  .boxeo:hover {
+    font-size: 30px;
+     
+  }
+  .musculacion:hover {
+    font-size: 30px;
+  }
+  .funcional:hover {
+    font-size: 30px;
+  }
+  .crossfit:hover {
+    font-size: 30px;
+  }
+  .clasespers:hover {
+    font-size: 20px;
+  }
+  .gruposred:hover {
+    font-size: 20px;
+  }
+  .planif:hover {
+    font-size: 20px;
+  }
+  .seguimientos:hover {
+    font-size: 20px;
+  }
 
   .galeria {
     margin-right: 10%;
@@ -170,10 +256,10 @@ footer {
     float: left;
     margin-right: 25%;
     width: 100%;
+    font-size: 25px;
   }
   .sobremi {
     flex-wrap: wrap;
-   
   }
   .textosobremi {
     font-size: 10px;
