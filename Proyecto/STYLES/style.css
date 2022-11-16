@@ -93,7 +93,7 @@ footer {
 /*-----------ACA ARRANCA SOBRE MI----------*/
 .sobremi {
   display: flex;
-  height: 500px;
+ 
 }
 
 .fotosobremi img {
@@ -264,5 +264,9 @@ footer {
   .textosobremi {
     font-size: 10px;
     width: 100vw;
+  }
+  .fotosobremi img{
+    width:96.5vw;
+
   }
 }
