@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border-color: red;
+ 
 }
 header {
   display: flex;
@@ -19,13 +19,18 @@ header {
   display: flex;
   justify-content: space-around;
   width: 40vw;
+  font-size: 20px;
+}
+h1{
+  font-size: 1.5rem;
 }
 .home {
-  background-image: url(../IMG/1513719_10204622197691631_1221807113591345236_n.jpg);
+  background-image: url(../img/1513719_10204622197691631_1221807113591345236_n.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%;;
+ 
 }
-.home div {
+.homebox {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +41,7 @@ header {
   font-weight: bold;
   width: 100%;
 }
-.home h2 {
+.box h2 {
   border-radius: 20px;
   font-size: 40px;
 }
@@ -73,6 +78,10 @@ header {
   font-size: 50px;
   color:deeppink;
 }
+
+
+
+
 footer {
   display: flex;
   align-items: center;
@@ -97,17 +106,25 @@ footer {
 }
 
 .fotosobremi img {
-  height: 81vh;
+  height: 100%;
+  width: 100%;
 }
 .textosobremi {
   text-align: center;
   background-color: aquamarine;
   width: 60%;
   font-family: "Holtwood One SC", serif;
+  
 }
 
 .textosobremi h2 {
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.textosobremi p{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*------------ACA ARRANCA SERVICIOS--------*/
@@ -126,16 +143,18 @@ footer {
   align-items: center;
   justify-content: space-around;
   font-family: "Holtwood One SC", serif;
-  width: 100%;
-  height: 100%;
+
 }
 .textoservicios h2 {
-  margin-top: 50px;
-  text-align: top;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
 }
 .textoservicios p {
   text-align: center;
-  margin: 0px 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
 }
 
 /*--------ACA ARRANCA CONTACTO------*/
@@ -200,19 +219,23 @@ footer {
     height: 20%;
     font-size: 15px;
   }
+.links{
+  font-size: 0.3rem;
 
-  .home {
-    height: 59vh;
-  }
+}
+
   .home div {
     height: 96%;
   }
+
   .home h2 {
     font-size: 15px;
   }
   .home h3 {
     font-size: 10px;
   }
+
+
   .boxeo:hover {
     font-size: 30px;
      
@@ -233,21 +256,20 @@ footer {
     font-size: 20px;
   }
   .planif:hover {
-    font-size: 20px;
-  }
-  .seguimientos:hover {
-    font-size: 20px;
+    font-size: 18px;
   }
 
+
+  
+
   .galeria {
-    margin-right: 10%;
     width: 100%;
   }
   .servicios {
     flex-wrap: wrap;
   }
   .textoservicios {
-    font-size: 15px;
+    font-size: 10px;
   }
   .textoservicios h2 {
     font-size: 24px;
@@ -261,12 +283,17 @@ footer {
   .sobremi {
     flex-wrap: wrap;
   }
+
+.textosobremi h2{
+  font-size: 24px;
+}
+
   .textosobremi {
     font-size: 10px;
     width: 100vw;
   }
   .fotosobremi img{
-    width:96.5vw;
+    width:100%;
 
   }
 }
