@@ -1,0 +1,15 @@
+/* selector {
+    propiedad: valor;
+}*/
+
+section{
+    background-color: blueviolet;
+}
+section h1 {
+    color: greenyellow
+    ;
+}
+
+section p{
+    color: orange;
+}

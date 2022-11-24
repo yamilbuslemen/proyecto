@@ -1,0 +1,35 @@
+
+@keyframes el-efecto {
+    0%{width: 300px;
+        background-color: yellow;
+        height:150px;
+        font-size: 10px;
+
+
+    }
+    50%{
+        widht: 50px;
+        background-color: tomato;
+        height: 300px;
+
+    }
+    100%{
+    width: 100%;
+    background-color: cyan;
+    height: 50px;
+
+    }
+    
+}
+
+.boxanimate{
+    border: 5px solid black;
+    background-color: aqua;
+    animation: el-efecto ;
+    animation-delay: 3s;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
