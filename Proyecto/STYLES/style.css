@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
- 
 }
 header {
   display: flex;
@@ -21,14 +20,13 @@ header {
   width: 40vw;
   font-size: 20px;
 }
-h1{
+h1 {
   font-size: 1.5rem;
 }
 .home {
   background-image: url(../img/1513719_10204622197691631_1221807113591345236_n.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;;
- 
+  background-size: 100%;
 }
 .homebox {
   display: flex;
@@ -47,40 +45,36 @@ h1{
 }
 .boxeo:hover {
   font-size: 60px;
-  color:rgb(220, 140, 20);
-   
+  color: rgb(220, 140, 20);
 }
 .musculacion:hover {
   font-size: 60px;
-  color:rgb(220, 140, 20);
+  color: rgb(220, 140, 20);
 }
 .funcional:hover {
   font-size: 60px;
-  color:rgb(220, 140, 20);
+  color: rgb(220, 140, 20);
 }
 .crossfit:hover {
   font-size: 60px;
-  color:rgb(220, 140, 20);
+  color: rgb(220, 140, 20);
 }
 .clasespers:hover {
   font-size: 50px;
-  color:deeppink;
+  color: deeppink;
 }
 .gruposred:hover {
   font-size: 50px;
-  color:deeppink;
+  color: deeppink;
 }
 .planif:hover {
   font-size: 50px;
-  color:deeppink;
+  color: deeppink;
 }
 .seguimientos:hover {
   font-size: 50px;
-  color:deeppink;
+  color: deeppink;
 }
-
-
-
 
 footer {
   display: flex;
@@ -102,7 +96,6 @@ footer {
 /*-----------ACA ARRANCA SOBRE MI----------*/
 .sobremi {
   display: flex;
- 
 }
 
 .fotosobremi img {
@@ -114,15 +107,13 @@ footer {
   background-color: aquamarine;
   width: 60%;
   font-family: "Holtwood One SC", serif;
-  
 }
 
 .textosobremi h2 {
   margin-top: 10px;
   margin-bottom: 10px;
-  
 }
-.textosobremi p{
+.textosobremi p {
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -143,18 +134,15 @@ footer {
   align-items: center;
   justify-content: space-around;
   font-family: "Holtwood One SC", serif;
-
 }
 .textoservicios h2 {
   margin-top: 10px;
   margin-bottom: 10px;
- 
 }
 .textoservicios p {
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
-  
 }
 
 /*--------ACA ARRANCA CONTACTO------*/
@@ -215,39 +203,46 @@ footer {
 
 @media screen and (max-width: 1140px) {
   .header {
+    display: flex;
     width: 20%;
     height: 20%;
     font-size: 15px;
   }
-.links{
-  font-size: 0.3rem;
+  .links {
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-size: 25px;
+  }
 
-}
+  .home {
+    height: 600px;
+    background-size: cover;
+  }
 
   .home div {
     height: 96%;
   }
 
   .home h2 {
-    font-size: 15px;
+    font-size: 25px;
   }
   .home h3 {
-    font-size: 10px;
+    font-size: 15px;
   }
-
 
   .boxeo:hover {
-    font-size: 30px;
-     
+    font-size: 40px;
   }
   .musculacion:hover {
-    font-size: 30px;
+    font-size: 40px;
   }
   .funcional:hover {
-    font-size: 30px;
+    font-size: 40px;
   }
   .crossfit:hover {
-    font-size: 30px;
+    font-size: 40px;
   }
   .clasespers:hover {
     font-size: 20px;
@@ -258,9 +253,6 @@ footer {
   .planif:hover {
     font-size: 18px;
   }
-
-
-  
 
   .galeria {
     width: 100%;
@@ -284,16 +276,15 @@ footer {
     flex-wrap: wrap;
   }
 
-.textosobremi h2{
-  font-size: 24px;
-}
+  .textosobremi h2 {
+    font-size: 24px;
+  }
 
   .textosobremi {
     font-size: 10px;
     width: 100vw;
   }
-  .fotosobremi img{
-    width:100%;
-
+  .fotosobremi img {
+    width: 100%;
   }
 }
