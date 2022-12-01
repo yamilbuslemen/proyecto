@@ -78,7 +78,7 @@ h1 {
 
 footer {
   display: flex;
-  align-items: center;
+  text-align: center;
   height: 100%;
   width: 100%;
   font-size: medium;
@@ -91,6 +91,9 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   background-color: brown;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*-----------ACA ARRANCA SOBRE MI----------*/
@@ -107,6 +110,7 @@ footer {
   background-color: aquamarine;
   width: 60%;
   font-family: "Holtwood One SC", serif;
+  
 }
 
 .textosobremi h2 {
@@ -116,6 +120,8 @@ footer {
 .textosobremi p {
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*------------ACA ARRANCA SERVICIOS--------*/
@@ -143,6 +149,8 @@ footer {
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*--------ACA ARRANCA CONTACTO------*/
@@ -158,6 +166,9 @@ footer {
   font-family: "Oswald", sans-serif;
   width: 100%;
   transition: all 1s;
+  gap: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .link1:hover {
   font-size: 60px;
@@ -198,7 +209,7 @@ footer {
 }
 .ingreseconsulta:focus {
   height: 50px;
-  width: 380px;
+  width: 300px;
 }
 
 @media screen and (max-width: 1140px) {
