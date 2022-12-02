@@ -1,0 +1,163 @@
+$boxwidth: 300px;
+$boxcolor: orange;
+
+.boxoperaciones {
+  background-color: $boxcolor;
+  padding: 10px;
+  width: $boxwidth;
+}
+
+/*condicionales*/
+$colortitle: dark;  //light
+
+.boxcondicional {
+  padding: 10px;
+  font-size: 30px;
+  @if $colortitle== dark {
+    color: white;
+    background-color: black;
+  } @else if $colortitle == light {
+    color: darkgray;
+    background-color: wheat;
+    border: 1px solid black;
+  } @else {
+    color: blue;
+    background-color: violet;
+  }
+}
+
+
+/* bucles */
+
+@for $i from 1 through 6 {
+    .h#{$i} {
+        font-size: 12px *$i;
+    }
+    }
+
+    @for $i from 1 to 12 {
+        .col-#{$i}{
+            width: 100% / $i ;
+        }   
+    }
+    /* each */
+
+    @each $background in red, green, blue, orange, tomato {
+        .bg-#{$background} {
+            background-color:  $background;
+        }
+        
+    }
+
+    /* maps*/ 
+    $redessociales: (
+        twitter: skyblue, 
+        facebook: blue,
+        instagram: blueviolet,
+        tiktok: black,
+        twitch: violet,
+    );
+    @each $nombre, $valor in $redessociales {
+       .icon__#{$nombre} {
+        color: $valor;
+
+       }
+    }
+
+    $headings: (
+        h1: 60px,
+        h2: 48px,
+        h3: 42px,
+        h4: 36px,
+    );
+    @each $title, $size in $headings {
+        .headings__#{$title} {
+            font-size: $size;
+
+        }
+        
+    }
+
+    $colores: (
+        primary: tomato,
+        base: black,
+        back: aqua,
+    );
+
+    .boxmap {
+        padding: 10px;
+        background-color: map-get($colores, base );
+        h2 {
+            color: map-get($colores, primary);
+    
+    }
+    }
+
+    /* extend */
+
+    .bloquetexto{
+        font-size: 24px;
+        line-height: normal;
+        font-weight: 700;
+        font-style: normal;
+        font-family: sans-serif;
+
+    }
+
+    .bloquetexto--center {
+        @extend .bloquetexto;
+        text-align: center;
+    }
+
+    .bloquetexto--right {
+        @extend .bloquetexto;
+        text-align: right;
+    }
+
+    /* mixins*/ 
+
+    @mixin btn {
+        display:inline-block;
+        padding: 10px;
+        border: 1px solid;
+        font-size: 24px;
+        text-decoration: none;
+        font-family: sans-serif;
+        border-radius: 25px;
+        
+    }
+
+    .btn--default {
+        @include btn; 
+        background-color: transparent;
+    }
+
+    .btn--danger{
+        @include btn;
+        background-color: tomato;
+       
+        }
+    .btn--exito{
+        @include btn;
+        background-color: greenyellow;
+        &:hover{
+            background-color: green;
+        }
+
+    }
+
+    @mixin btn--color ($texto, $fondo) {
+        display:inline-block;
+        padding: 10px;
+        border: 1px solid;
+        font-size: 24px;
+        text-decoration: none;
+        font-family: sans-serif;
+        border-radius: 25px;
+        color: $texto;
+        background-color: $fondo;
+        
+    }
+.btn--base{
+    @include btn--color(orange, blue )
+}

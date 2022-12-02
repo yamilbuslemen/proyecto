@@ -1,0 +1,48 @@
+/* comentarios */
+/*vars*/
+.header {
+  background-color: orange;
+}
+.headerlogo {
+  width: 100px;
+}
+.headerlogo p {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+  font-color: black;
+}
+.headermenu {
+  display: inline-block;
+}
+.headermenu ul li {
+  list-style: none;
+}
+.headermenu ul li a {
+  color: orange;
+  text-decoration: none;
+}
+.headermenu ul li a:hover {
+  color: tomato;
+}
+.header input {
+  width: 150px;
+}
+
+section {
+  background-color: tomato;
+}
+section h2 {
+  font-size: 30px;
+}
+section p {
+  font-size: 34px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  section {
+    background-color: tomato;
+  }
+}/*# sourceMappingURL=main.css.map */

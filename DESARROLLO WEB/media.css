@@ -1,0 +1,53 @@
+
+.boxmedia{
+    background-color: aqua;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px;
+
+}
+.boxmediaflex{
+    background-color: tomato;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.boxrem{
+    background-color: aquamarine;
+    padding: 20px;
+}
+.boxrem h2{
+    font-size: 4rem;
+}
+.boxrem h3{
+    font-size: 3rem;
+}
+.boxrem h4{
+    font-size: 60px;
+    background-color: orange;
+}
+@media (max-width:576px){
+    html{
+        font-size: 50%;
+    }
+}
+@media (min-width: 768px)  {
+    .boxmedia{
+        background-color: greenyellow;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .boxmediaflex{
+        display: flex;
+        gap: 20px;
+    }
+    .boxmediaflex h2{
+        min-width: 35px;
+        
+    }
+
+    }
+
+
+

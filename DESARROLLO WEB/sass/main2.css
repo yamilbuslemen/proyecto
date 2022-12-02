@@ -1,0 +1,214 @@
+.boxoperaciones {
+  background-color: orange;
+  padding: 10px;
+  width: 300px;
+}
+
+/*condicionales*/
+.boxcondicional {
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+}
+
+/* bucles */
+.h1 {
+  font-size: 12px;
+}
+
+.h2 {
+  font-size: 24px;
+}
+
+.h3 {
+  font-size: 36px;
+}
+
+.h4 {
+  font-size: 48px;
+}
+
+.h5 {
+  font-size: 60px;
+}
+
+.h6 {
+  font-size: 72px;
+}
+
+.col-1 {
+  width: 100%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 33.3333333333%;
+}
+
+.col-4 {
+  width: 25%;
+}
+
+.col-5 {
+  width: 20%;
+}
+
+.col-6 {
+  width: 16.6666666667%;
+}
+
+.col-7 {
+  width: 14.2857142857%;
+}
+
+.col-8 {
+  width: 12.5%;
+}
+
+.col-9 {
+  width: 11.1111111111%;
+}
+
+.col-10 {
+  width: 10%;
+}
+
+.col-11 {
+  width: 9.0909090909%;
+}
+
+/* each */
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-tomato {
+  background-color: tomato;
+}
+
+/* maps*/
+.icon__twitter {
+  color: skyblue;
+}
+
+.icon__facebook {
+  color: blue;
+}
+
+.icon__instagram {
+  color: blueviolet;
+}
+
+.icon__tiktok {
+  color: black;
+}
+
+.icon__twitch {
+  color: violet;
+}
+
+.headings__h1 {
+  font-size: 60px;
+}
+
+.headings__h2 {
+  font-size: 48px;
+}
+
+.headings__h3 {
+  font-size: 42px;
+}
+
+.headings__h4 {
+  font-size: 36px;
+}
+
+.boxmap {
+  padding: 10px;
+  background-color: black;
+}
+.boxmap h2 {
+  color: tomato;
+}
+
+/* extend */
+.bloquetexto, .bloquetexto--right, .bloquetexto--center {
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 700;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+.bloquetexto--center {
+  text-align: center;
+}
+
+.bloquetexto--right {
+  text-align: right;
+}
+
+/* mixins*/
+.btn--default {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-radius: 25px;
+  background-color: transparent;
+}
+
+.btn--danger {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-radius: 25px;
+  background-color: tomato;
+}
+
+.btn--exito {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-radius: 25px;
+  background-color: greenyellow;
+}
+.btn--exito:hover {
+  background-color: green;
+}
+
+.btn--base {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-radius: 25px;
+  color: orange;
+  background-color: blue;
+}/*# sourceMappingURL=main2.css.map */

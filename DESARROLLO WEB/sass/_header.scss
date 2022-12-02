@@ -1,0 +1,32 @@
+.header{
+    background-color: $colorPrincipal;
+&logo{
+    width:100px;
+    p {
+        font: {
+        family: sans-serif;
+        weight: 700;
+        size: 24px;
+        style: normal;
+        color:$colorBase;
+    }
+    }
+}
+&menu{
+    display: inline-block;
+    ul li{
+        list-style: none;
+        a {
+            color: $colorPrincipal;
+            text-decoration: none;
+            &:hover{
+                color: $colorBg
+                        }
+        }
+    }
+}
+
+input{
+    width: 150px;
+}
+}
